@@ -1,0 +1,17 @@
+{
+    "name": "apiera/woo-php-sdk",
+    "description": "Woo Rest API PHP SDK composer library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Apiera\\WooPhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fredrik-tveraaen",
+            "email": "fredrik.tveraaen@apiera.io"
+        }
+    ],
+    "require": {}
+}
