@@ -8,6 +8,7 @@ use Apiera\WooPhpSdk\Exception\Http\BadRequestException;
 use Apiera\WooPhpSdk\Exception\Http\HttpException;
 use Apiera\WooPhpSdk\Exception\Http\InternalServerErrorException;
 use Apiera\WooPhpSdk\Exception\Http\NotFoundException;
+use Apiera\WooPhpSdk\Exception\Http\RequestException;
 use Apiera\WooPhpSdk\Exception\Http\UnauthorizedException;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
@@ -21,6 +22,7 @@ use Psr\Http\Message\UriInterface;
 #[CoversClass(InternalServerErrorException::class)]
 #[CoversClass(NotFoundException::class)]
 #[CoversClass(UnauthorizedException::class)]
+#[CoversClass(RequestException::class)]
 final class HttpExceptionTest extends TestCase
 {
     /**
